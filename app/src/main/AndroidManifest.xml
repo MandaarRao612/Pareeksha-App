@@ -9,6 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Finalpareeksha">
+        <activity android:name=".ForgotPasswordActivity"></activity>
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".StudentQuestions" />
+        <activity android:name=".AdminQuestions" />
+        <activity android:name=".RulesActivity" />
+        <activity android:name=".ExamCodeActivity" />
+        <activity android:name=".ExamDetailsActivity" />
+        <activity android:name=".SelectSubjectActivity" />
+        <activity android:name=".WelcomeAdminActivity" />
+        <activity android:name=".CreateAccountActivity" />
+        <activity android:name=".MainActivity2" />
+        <activity android:name=".LoginActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,6 +28,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
     </application>
 
 </manifest>

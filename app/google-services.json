@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "281160982710",
+    "project_id": "finalpareeksha",
+    "storage_bucket": "finalpareeksha.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281160982710:android:6eaa5f34f0bc51bd658617",
+        "android_client_info": {
+          "package_name": "com.example.finalpareeksha"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281160982710-4tk8422e58e7197hio1rba4sbgpaun7q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBiobHvCEh2lxeMOFxR58cYGmwkmb_fJ0E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281160982710-4tk8422e58e7197hio1rba4sbgpaun7q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
