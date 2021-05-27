@@ -1,6 +1,7 @@
 {
   "project_info": {
     "project_number": "281160982710",
+    "firebase_url": "https://finalpareeksha-default-rtdb.firebaseio.com",
     "project_id": "finalpareeksha",
     "storage_bucket": "finalpareeksha.appspot.com"
   },
@@ -13,6 +14,14 @@
         }
       },
       "oauth_client": [
+        {
+          "client_id": "281160982710-1429gd3bra3eemb1fc2ft731f16mr4jr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.finalpareeksha",
+            "certificate_hash": "64b99bd63bc76a2932a4e3afb6274ebc714e3f30"
+          }
+        },
         {
           "client_id": "281160982710-4tk8422e58e7197hio1rba4sbgpaun7q.apps.googleusercontent.com",
           "client_type": 3
