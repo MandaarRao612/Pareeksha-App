@@ -30,6 +30,7 @@ public class HomeActivity extends AppCompatActivity {
         password=(EditText)findViewById(R.id.editTextTextPassword);
         login=(Button)findViewById(R.id.button);
         forgot=(Button)findViewById(R.id.button4);
+
         forgot.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -37,6 +38,7 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(forr);
             }
         });
+
         signup=(Button)findViewById(R.id.button3);
         signup.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,6 +48,7 @@ public class HomeActivity extends AppCompatActivity {
                 finish();
             }
         });
+
         login.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -68,9 +71,11 @@ public class HomeActivity extends AppCompatActivity {
                     startActivity(add);
                     finish();
                 }
+
                 if (!pass.matches(passwordPattern)){
                     password.setError("Password must contain minimum 8 characters at least 1 Alphabet, 1 Number and 1 Special Character");
                 }
+
                 if (!(emaill.isEmpty() && pass.isEmpty() && emaill.equals("Admin@gmail.com") && pass.equals("Admin@10")) && pass.matches(passwordPattern) && emaill.matches(emailPattern)){
                     mAuth=FirebaseAuth.getInstance();
                     mAuth.signInWithEmailAndPassword(emaill,pass).addOnCompleteListener(HomeActivity.this, new OnCompleteListener<AuthResult>() {
